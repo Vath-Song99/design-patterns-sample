@@ -1,0 +1,20 @@
+{
+  "name": "design-pattern",
+  "author": "Smoeury Sognvat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "build": "tsc",
+    "start:prod": "node build/server.ts",
+    "start:dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.4",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
